@@ -1,0 +1,12 @@
+table
+{
+ border-collapse: collapse;
+ background-color: yellow;
+}
+
+td
+{
+  border-left: 3px solid green;
+  text-align: center;
+  padding-bottom: 20px;
+}
