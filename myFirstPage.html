@@ -3,29 +3,55 @@
 <head>
 <title>IT-1901</title>
 <link rel="stylesheet" href="style.css">
+<script src="javascript.js"></script>
+<script>
+  function function_1()
+  {
+    //console.log("internal script")
+    //alert("internal alert")
+    let oldText = document.querySelector("h1").innerHTML
+    if(!oldText.includes("(C1 358)"))
+    {
+        console.log("text is already changed")
+    }
+    else
+    {
+        oldText = "introduction to web (C1 352)";
+    }
+    document.querySelector("h1").innerHTML = oldText
+  }
+</script>
 </head>
 <body>
 <hr>
 <h1>introduction to web (C1 358)</h1>
 <hr>
+<button type="button" onclick="function_1()">click me 1</button>
+<button type="button" onclick="function_2()">click me 2</button>
+<hr>
+<h2><a href="#L_1,2">Lesson 1</a></h2>
 <p class="schedule">
-<h2><a href="#L_1,2">Lesson 1</a></h2> on <i>Wednesday</i> starts at <b>15.00</b> and ends at 15.50
+on <i>Wednesday</i> starts at <b>15.00</b> and ends at 15.50
 </p>
 <hr>
+<h2><a href="#L_1,2">Lesson 2</a></h2>
 <p class="schedule">
-<h2><a href="#L_1,2">Lesson 2</a></h2> on <i>Wednesday</i> starts at <b>16.00</b> and ends at 16.50
+on <i>Wednesday</i> starts at <b>16.00</b> and ends at 16.50
 </p>
 <hr>
+<h2>Lesson 3</h2>
 <p class="schedule">
-<h2>Lesson 3</h2> on <i>Thursday</i> starts at <b>12.00</b> and ends at 12.50
+on <i>Thursday</i> starts at <b>12.00</b> and ends at 12.50
 </p>
 <hr>
+<h2>Lesson 4</h2>
 <p class="schedule">
-<h2>Lesson 4</h2> on <i>Friday</i> starts at <b>09.00</b> and ends at 09.50
+on <i>Friday</i> starts at <b>09.00</b> and ends at 09.50
 </p>
 <hr>
+<h2>Lesson 5</h2>
 <p class="schedule">
-<h2>Lesson 5</h2> on <i>Friday</i> starts at <b>10.00</b> and ends at 10.50
+on <i>Friday</i> starts at <b>10.00</b> and ends at 10.50
 </p>
 <hr><hr>
 <div id="L_1,2">
@@ -184,16 +210,6 @@ Farewell to the torrents and loud-pouring floods.</pre></td>
       What is the a<sub>7</sub>
       from the Fibbonacci sequence?
     </p>
-
-    <p>&nbsp</p>
-    <p>&nbsp</p>
-    <p>&nbsp</p>
-    <p>&nbsp</p>
-    <p>&nbsp</p>
-    <p>&nbsp</p>
-    <p>&nbsp</p>
-    <p>&nbsp</p>
-    <p>&nbsp</p>
     <p></p>
     <p></p>
     <p></p>
@@ -202,5 +218,57 @@ Farewell to the torrents and loud-pouring floods.</pre></td>
     <p></p>
     <p></p>
 </div>
+
+  <p>
+    <img class="imageClass" src="2.jpg" width="300" height="200"
+    hspace="10px" alt="Kolsay" title="Qaiyndy" />
+    The Kazakh steppes present an impressive and absorbing sight.
+    One can meet there several hundreds of bird species who settle
+    in the region of numerous freshwater and brine lakes.
+    Lake Tengiz is a habitat for one of the rarest and most
+    beautiful bird species - pink flamingos. The Kazakh government
+    set up the Kurgaldja wildfire are to protect them.
+    Among the deserts of Kazakhstan the most distinguishing are
+    Betpak-Dala desert, Ustyurt plateau, Kyzyk Kum sandy-desert,
+    Moyunkum desert as well as Aral Karakums. They are inhabited
+    by goitered gazelles and jerboas as well as vipers - a terror
+    of deserts. In addition to them another 16 species of snakes
+    were found in the territory of Kazakhstan. Naturally one cannot
+    but mention the largest lizard inhabited exceptionally in the
+    sands of Kyzyl-Kum - desert monitor.
+    The nature of Kazakhstan is various, its desert massive is
+    immense and its mountain peaks are high and harsh.
+    The country’s flora and fauna are represented by various
+    species of rare and unique animals and plants, many of which
+    are entered in the Red Book.@copy
+    <br style="clear:both;"/>
+    <i style="margin: 10px;">Visit Kazakhstan</i>
+  </p>
+
+  <p>
+    <img class="imageClass" src="3.jpg" width="300" height="225"
+    hspace="10px" alt="Altai" title="Marqakol"/>
+    It is a long ride to get to Lake Markakol, and an expensive
+    journey because of the need for permits, but foreigners who
+    make it this far will be rewarded with some of the most
+    spectacular views of the Altai mountains. If you make it to
+    lonely Urunkhayka, the peaceful landscape will wash away the
+    pains of the bumpy ride there.
+    Rare fauna and flora are under threat here, as the reserve
+    does not have the money to fight off Chinese poachers from
+    across the border.@copy
+    <br style="clear:both;" />
+    <i style="margin: 10px;">The beauty of Kazakhstan</i>
+  </p>
+
+  <p>&nbsp</p>
+  <p>&nbsp</p>
+  <p>&nbsp</p>
+  <p>&nbsp</p>
+  <p>&nbsp</p>
+  <p>&nbsp</p>
+  <p>&nbsp</p>
+  <p>&nbsp</p>
+  <p>&nbsp</p>
 </body>
 </html>
